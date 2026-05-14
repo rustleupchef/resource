@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: relative;
+    background-color: white;
+}
+
+.title {
+    align-self: center;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 586px;
+    height: 885px;
+}
+
+.stamp {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.less-bottom-margin {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.less-top-margin {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+h2, p {
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 60px;
+    margin-right: 60px;
+}
